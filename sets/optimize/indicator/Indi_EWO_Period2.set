@@ -1,0 +1,7 @@
+; Optimize strategy indicator's EWO period param.
+EWO_Indi_EWO_Period2,1=4
+EWO_Indi_EWO_Period2,2=4
+EWO_Indi_EWO_Period2,3=24
+EWO_Indi_EWO_Period2,F=1
+EWO_SignalOpenFilterMethod=1
+EWO_TickFilterMethod=1

@@ -1,0 +1,15 @@
+EWO_Indi_EWO_Applied_Price1,1=0
+EWO_Indi_EWO_Applied_Price1,2=0
+EWO_Indi_EWO_Applied_Price1,3=6
+EWO_Indi_EWO_Applied_Price1,F=1
+EWO_Indi_EWO_Applied_Price1={{ ewo_ap1 | replace("(ENUM_APPLIED_PRICE)", "") | int | default(0) }}
+EWO_Indi_EWO_Applied_Price2={{ ewo_ap2 | replace("(ENUM_APPLIED_PRICE)", "") | int | default(0) }}
+EWO_Indi_EWO_MA_Method1={{ ewo_mm1 | default(0) }}
+EWO_Indi_EWO_MA_Method2={{ ewo_mm2 | default(0) }}
+EWO_Indi_EWO_Period1={{ (ewo_period1 | default(0) | int) }}
+EWO_Indi_EWO_Period2={{ (ewo_period2 | default(0) | int) }}
+EWO_Indi_EWO_Shift={{ shift | default(0) }}
+EWO_LotSize={{ lot_size | default(0) }}
+EWO_PriceStopMethod=0
+EWO_SignalOpenFilterMethod=1
+EWO_TickFilterMethod=1

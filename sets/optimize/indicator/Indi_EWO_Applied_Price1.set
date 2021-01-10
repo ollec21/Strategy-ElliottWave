@@ -1,0 +1,7 @@
+; Optimize strategy indicator's EWO applied price param.
+EWO_Indi_EWO_Applied_Price1,1=0
+EWO_Indi_EWO_Applied_Price1,2=0
+EWO_Indi_EWO_Applied_Price1,3=6
+EWO_Indi_EWO_Applied_Price1,F=1
+EWO_SignalOpenFilterMethod=1
+EWO_TickFilterMethod=1
