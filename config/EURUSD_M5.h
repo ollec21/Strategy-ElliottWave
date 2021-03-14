@@ -10,9 +10,9 @@ struct Indi_ElliottWave_Params_M5 : Indi_ElliottWave_Params {
     ewo_ap1 = (ENUM_APPLIED_PRICE)0;
     ewo_ap2 = (ENUM_APPLIED_PRICE)0;
     ewo_mm1 = (ENUM_MA_METHOD)0;
-    ewo_mm2 = (ENUM_MA_METHOD)0;
-    ewo_period1 = 5;
-    ewo_period2 = 35;
+    ewo_mm2 = (ENUM_MA_METHOD)2;
+    ewo_period1 = 2;
+    ewo_period2 = 10;
   }
 } indi_ewo_m5;
 
